@@ -1,0 +1,15 @@
+PODS:
+  - ObjectiveSugar (0.9)
+  - OCMock (2.0.1)
+
+DEPENDENCIES:
+  - ObjectiveSugar (~> 0.5)
+  - OCMock (~> 2.0.1)
+
+SPEC CHECKSUMS:
+  ObjectiveSugar: 18409ee1ec578dd8598b55e5008f393488dca5cf
+  OCMock: 7a839b55abfb78e8ec3bf6eaa3cdcc567ac71d2a
+
+PODFILE CHECKSUM: a2f75e0c136723250339a61293390e529f1909ea
+
+COCOAPODS: 1.1.0.rc.2

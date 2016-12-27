@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210AF34BA914C8867463CCDB /* libPods-hello-travis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E92AC23BEB1AC36B55D29119 /* libPods-hello-travis.a */; };
 		9135E3131E128A1100D00032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9135E3121E128A1100D00032 /* AppDelegate.swift */; };
 		9135E3151E128A1100D00032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9135E3141E128A1100D00032 /* ViewController.swift */; };
 		9135E3181E128A1100D00032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9135E3161E128A1100D00032 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		9135E3281E128A1100D00032 /* hello_travisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9135E3271E128A1100D00032 /* hello_travisTests.swift */; };
 		9135E3331E128A1100D00032 /* hello_travisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9135E3321E128A1100D00032 /* hello_travisUITests.swift */; };
 		9135E3411E128A3800D00032 /* AppLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9135E3401E128A3800D00032 /* AppLogic.swift */; };
+		96A6C35C93536946BF7BE485 /* libPods-hello-travisTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EB67044B1C706DFDF6071D /* libPods-hello-travisTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25BFDAF5D5AB5C7476C52DE9 /* Pods-hello-travisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-travisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hello-travisTests/Pods-hello-travisTests.release.xcconfig"; sourceTree = "<group>"; };
 		9135E30F1E128A1100D00032 /* hello-travis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-travis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9135E3121E128A1100D00032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9135E3141E128A1100D00032 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		9135E3321E128A1100D00032 /* hello_travisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_travisUITests.swift; sourceTree = "<group>"; };
 		9135E3341E128A1100D00032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9135E3401E128A3800D00032 /* AppLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLogic.swift; sourceTree = "<group>"; };
+		A052E99B6D4BB2D73F6A98D3 /* Pods-hello-travis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-travis.release.xcconfig"; path = "Pods/Target Support Files/Pods-hello-travis/Pods-hello-travis.release.xcconfig"; sourceTree = "<group>"; };
+		A2D3BA6182E0D1AE592FC029 /* Pods-hello-travisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-travisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hello-travisTests/Pods-hello-travisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEE4F332B2A61F770023AA3B /* Pods-hello-travis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-travis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hello-travis/Pods-hello-travis.debug.xcconfig"; sourceTree = "<group>"; };
+		E92AC23BEB1AC36B55D29119 /* libPods-hello-travis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hello-travis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5EB67044B1C706DFDF6071D /* libPods-hello-travisTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hello-travisTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210AF34BA914C8867463CCDB /* libPods-hello-travis.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A6C35C93536946BF7BE485 /* libPods-hello-travisTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F6DCB73D910791E59AD07B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E92AC23BEB1AC36B55D29119 /* libPods-hello-travis.a */,
+				F5EB67044B1C706DFDF6071D /* libPods-hello-travisTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9135E3061E128A1100D00032 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +102,8 @@
 				9135E3261E128A1100D00032 /* hello-travisTests */,
 				9135E3311E128A1100D00032 /* hello-travisUITests */,
 				9135E3101E128A1100D00032 /* Products */,
+				C13FB848B8AAE973D38D120A /* Pods */,
+				5F6DCB73D910791E59AD07B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +149,17 @@
 			path = "hello-travisUITests";
 			sourceTree = "<group>";
 		};
+		C13FB848B8AAE973D38D120A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEE4F332B2A61F770023AA3B /* Pods-hello-travis.debug.xcconfig */,
+				A052E99B6D4BB2D73F6A98D3 /* Pods-hello-travis.release.xcconfig */,
+				A2D3BA6182E0D1AE592FC029 /* Pods-hello-travisTests.debug.xcconfig */,
+				25BFDAF5D5AB5C7476C52DE9 /* Pods-hello-travisTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9135E3371E128A1100D00032 /* Build configuration list for PBXNativeTarget "hello-travis" */;
 			buildPhases = (
+				A166E47425A700E80F19A05D /* [CP] Check Pods Manifest.lock */,
 				9135E30B1E128A1100D00032 /* Sources */,
 				9135E30C1E128A1100D00032 /* Frameworks */,
 				9135E30D1E128A1100D00032 /* Resources */,
+				0AD5DB20ED698FD035F94D7E /* [CP] Embed Pods Frameworks */,
+				C86DAEEAD0B9F215C900B44A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9135E33A1E128A1100D00032 /* Build configuration list for PBXNativeTarget "hello-travisTests" */;
 			buildPhases = (
+				9B19DB86503BE27990920D3D /* [CP] Check Pods Manifest.lock */,
 				9135E31F1E128A1100D00032 /* Sources */,
 				9135E3201E128A1100D00032 /* Frameworks */,
 				9135E3211E128A1100D00032 /* Resources */,
+				0DF099CF6D9E423D684CD834 /* [CP] Embed Pods Frameworks */,
+				B1FF58141C88F8C70A80DB3C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +297,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AD5DB20ED698FD035F94D7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hello-travis/Pods-hello-travis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DF099CF6D9E423D684CD834 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hello-travisTests/Pods-hello-travisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B19DB86503BE27990920D3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A166E47425A700E80F19A05D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1FF58141C88F8C70A80DB3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hello-travisTests/Pods-hello-travisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C86DAEEAD0B9F215C900B44A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hello-travis/Pods-hello-travis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9135E30B1E128A1100D00032 /* Sources */ = {
@@ -417,6 +548,7 @@
 		};
 		9135E3381E128A1100D00032 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE4F332B2A61F770023AA3B /* Pods-hello-travis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7C247JK57L;
@@ -430,6 +562,7 @@
 		};
 		9135E3391E128A1100D00032 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A052E99B6D4BB2D73F6A98D3 /* Pods-hello-travis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7C247JK57L;
@@ -443,6 +576,7 @@
 		};
 		9135E33B1E128A1100D00032 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D3BA6182E0D1AE592FC029 /* Pods-hello-travisTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +592,7 @@
 		};
 		9135E33C1E128A1100D00032 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25BFDAF5D5AB5C7476C52DE9 /* Pods-hello-travisTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +653,7 @@
 				9135E3391E128A1100D00032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9135E33A1E128A1100D00032 /* Build configuration list for PBXNativeTarget "hello-travisTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +662,7 @@
 				9135E33C1E128A1100D00032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9135E33D1E128A1100D00032 /* Build configuration list for PBXNativeTarget "hello-travisUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +671,7 @@
 				9135E33F1E128A1100D00032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
