@@ -21,9 +21,10 @@ class hello_travisTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testLogicDoSmth() {
+        let appLogic = AppLogic()
+        let result = appLogic.doSmth(p0: "x")
+        XCTAssertEqual(result, "smth: x", "result was not as expected")
     }
     
     func testPerformanceExample() {

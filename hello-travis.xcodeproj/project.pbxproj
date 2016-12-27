@@ -14,6 +14,7 @@
 		9135E31D1E128A1100D00032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9135E31B1E128A1100D00032 /* LaunchScreen.storyboard */; };
 		9135E3281E128A1100D00032 /* hello_travisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9135E3271E128A1100D00032 /* hello_travisTests.swift */; };
 		9135E3331E128A1100D00032 /* hello_travisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9135E3321E128A1100D00032 /* hello_travisUITests.swift */; };
+		9135E3411E128A3800D00032 /* AppLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9135E3401E128A3800D00032 /* AppLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9135E32E1E128A1100D00032 /* hello-travisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hello-travisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9135E3321E128A1100D00032 /* hello_travisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_travisUITests.swift; sourceTree = "<group>"; };
 		9135E3341E128A1100D00032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9135E3401E128A3800D00032 /* AppLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9135E3191E128A1100D00032 /* Assets.xcassets */,
 				9135E31B1E128A1100D00032 /* LaunchScreen.storyboard */,
 				9135E31E1E128A1100D00032 /* Info.plist */,
+				9135E3401E128A3800D00032 /* AppLogic.swift */,
 			);
 			path = "hello-travis";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9135E3411E128A3800D00032 /* AppLogic.swift in Sources */,
 				9135E3151E128A1100D00032 /* ViewController.swift in Sources */,
 				9135E3131E128A1100D00032 /* AppDelegate.swift in Sources */,
 			);
