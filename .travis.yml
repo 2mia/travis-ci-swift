@@ -1,0 +1,8 @@
+language: objective-c
+osx_image:  xcode8.1
+xcode_workspace: hello-travis.xcworkspace
+xcode_scheme:  hello-travis
+xcode_sdk: iphonesimulator10.1
+
+script:
+- xcodebuild test -workspace hello-travis.xcworkspace/ -scheme hello-travis  -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.1'
